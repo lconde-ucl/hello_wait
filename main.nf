@@ -9,7 +9,7 @@ process sayHello {
     script:
     """
     echo -n "Hello"
-    sleep 600  // Sleep for 10 minutes (600 seconds)
+    sleep 600
     echo " World"
     """
 }
